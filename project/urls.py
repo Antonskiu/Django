@@ -23,4 +23,5 @@ urlpatterns = [
     path('a/', a.a),
     path('porn/', a.porn),
     path('home/', a.home),
+    path('1/', a.o, name='name'),
 ]

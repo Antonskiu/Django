@@ -9,3 +9,14 @@
 
 добавление git: git init
 добавление точки отчёта git commit -m "name"
+
+git config --global user.email "toxaantoxa2000@gmail.com"
+git config --global user.name "Antonskiu"
+git remote add origin https://github.com/Antonskiu/Django.git
+git push -u origin main
+
+Для перекидывания на другую страницу без заморочек с изменением название нужно в форме указать {%'name%} и в url name = 'name'
+
+Для получения информации и формы или вообще какой-то request.
+
+Для получения значений форми reauest.GET[]

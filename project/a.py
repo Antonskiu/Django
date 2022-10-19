@@ -60,3 +60,9 @@ def home(reguest):
 
 def h(reguest):
 	return render(reguest, 'h.html')
+
+def o(reguest):
+	text = reguest.GET['nn1']
+	# указание обратного отображения
+	reverset = text[::-1]
+	return render(reguest, '1.html', {'name' : text, 'name1' : reverset})
